@@ -13,7 +13,6 @@
 	};
 	
 	struct the_source {
-		char firstchar;
 		const char *fmat;
 		const char *url;
 	};
@@ -29,7 +28,7 @@
 	extern thecnt_t	the_getcnt	(const char *term);
 	extern the_t	the_getthe	(const char *term);
 	
-	extern void	the_thetostr	(the_t the, char *buf, size_t maxlen);
+	extern char	*the_thetostr	(the_t the, char *buf, size_t maxlen);
 		
 	extern struct the_unit	the_getthe_unit	(the_t thes);
 	extern the_t	the_inunit	(the_t the, the_t unit);
