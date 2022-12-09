@@ -39,7 +39,7 @@ const struct the_unit the_units [] = {
 
 const struct the_source the_source_google = {
 	"<div id=\"result-stats\">About %m[0-9,] results",
-	"https://www.google.com/search?q=\"%s\""
+	"https://www.google.com/search?q=\"%s\"&nbpr=1"
 };
 
 const struct the_source the_source_wikipedia = {
